@@ -1,0 +1,1015 @@
+Chapter 7
+
+The General Theory of
+Relativity
+
+The General Theory of Relativity is, as the name indicates, a generalization
+of the Special Theory of Relativity. It is certainly one of the most remarkable
+achievements of science to date, it was developed by Einstein with little or
+no experimental motivation but driven instead by philosophical questions:
+Why are inertial frames of reference so special? Why is it we do not feel
+gravity’s pull when we are freely falling? Why should absolute velocities be
+forbidden but absolute accelerations by accepted?
+
+
+
+
+                            Figure 7.1: Einstein
+
+
+
+                                     151
+152
+
+7.1        The happiest thought of my life.
+In 1907, only two years after the publication of his Special Theory of Rel-
+ativity, Einstein wrote a paper attempting to modify Newton’s theory of
+gravitation to fit special relativity. Was this modification necessary? Most
+emphatically yes! The reason lies at the heart of the Special Theory of Rel-
+ativity: Newton’s expression for the gravitational force between two objects
+depends on the masses and on the distance separating the bodies, but makes
+no mention of time at all. In this view of the world if one mass is moved,
+the other perceives the change (as a decrease or increase of the gravitational
+force) instantaneously. If exactly true this would be a physical effect which
+travels faster than light (in fact, at infinite speed), and would be inconsis-
+tent with the Special Theory of Relativity (see Sect. 6.2.7). The only way
+out of this problem is by concluding that Newton’s gravitational equations
+are not strictly correct. As in previous occasions this does not imply that
+they are “wrong”, it only means that they are not accurate under certain
+circumstances: situations where large velocities (and, as we will see, large
+masses) are involved cannot be described accurately by these equations.
+    In 1920 Einstein commented that a thought came into his mind when
+writing the above-mentioned paper he called it “the happiest thought of my
+life”:
+
+        The gravitational field has only a relative existence... Because for
+           an observer freely falling from the roof of a house – at least
+           in his immediate surroundings – there exists no gravitational
+           field.
+
+     Let’s imagine the unfortunate Wile E. Coyote falling from an immense
+height 1 . As he starts falling he lets go of the bomb he was about to drop
+on the Road Runner way below. The bomb does not gain on Wile nor does
+it lag behind. If he were to push the bomb away he would see it move with
+constant speed in a fixed direction. This realization is important because
+this is exactly what an astronaut would experience in outer space, far away
+from all bodies (we have good evidence for this: the Apollo 10–13 spacecrafts
+did travel far from Earth into regions where the gravitational forces are quite
+weak).
+     Mr. Coyote is fated to repeat the experience with many other things:
+rocks, magnets, harpoons, anvils, etc. In all cases the same results are
+obtained: with respect to him all objects, irrespective of composition, mass,
+  1
+      I ignore air resistance
+                                                                                    153
+
+etc. behave as if in free space. So, if he should fall inside a closed box, he
+would not be able to tell whether he was plunging to his death (or, at least,
+severe discomfort), or whether he was in outer space on his way to Pluto at
+constant speed.
+     This is reminiscent of Galileo’s argument: the observer lets go of some
+objects which remain in a state of uniform motion (with respect to him!).
+This behavior is independent of their chemical or physical nature (as above,
+air resistance is ignored). The observer (Wile), as long as he confines his/her
+observations to his/her immediate vicinity (that is, as long as he/she does
+not look down) has the right to interpret his state as ‘at rest’. Just as
+Galileo argued that experiments in a closed box cannot determine the state
+of uniform motion of the box, Einstein argued that experiments in a freely
+falling small2 closed box cannot be used to determine whether the box is in
+the grip of a gravitational force or not.
+     Why would this be true? The answer can be traced back to the way in
+which gravity affects bodies. Remember (see Sect. 4.3.3) that the quantity
+we called m (the mass) played two different roles in Newton’s equations.
+One is to determine, given a force, what the acceleration of the body would
+be: F = ma (the inertial mass). The other is to determine the intensity
+with which the said body experiences a gravitational force: F = mM G/r2
+(the gravitational mass). As mentioned before these two quantities need not
+be equal: the first “job” of m is to tell a body how much to accelerate given
+any force, a kick, an electric force (should the body be charged), etc. The
+second “job” tells the body how much of the gravitational force should it
+experience and also determines how strong a gravitational force it generates.
+But, in fact, both numbers are equal (to a precision of ten parts per billion).
+     What does this imply? Well, from Newton’s equations we get
+
+                        mM G                          MG
+                             = ma so that                = a;
+                         r2                           r2
+this equation determines how a body moves, which trajectory it follows,
+how long does it take to move from one position to another, etc. and is
+independent of m! Two bodies of different masses, composition, origin and
+guise will follow the same trajectory: beans, bats and boulders will move in
+the same way.
+    So the equality of the two m’s was upgraded by Einstein to a postulate:
+the Principle of Equivalence; this one statement (that the m in ma and
+the m in mM G/r2 are identical) implies an incredible amount of new and
+  2
+      The reasons behind the requirement that the box be small will become clear soon.
+                           154
+
+                           surprising effects. The m in F = ma is called the inertial mass and the m in
+The m in F = ma is         mM G/r2 the gravitational mass. Then the Principle of Equivalence states
+called the inertial mass   that the inertial and gravitational masses are identical.
+and the m in mM G/r 2
+the gravitational mass
+                               The whole of the General Theory of Relativity rests on this postulate,
+The inertial and
+gravitational masses are
+                           and will fail if one can find a material for which the inertial and gravita-
+identical                  tional masses have different values. One might think that this represents a
+                           defect of the theory, its Achilles heel. In one sense this is true since a single
+                           experiment has the potential of demolishing the whole of the theory (people
+                           have tried...hard, but all experiments have validated the principle of equiv-
+                           alence). On the other hand one can argue that a theory which is based on a
+                           minimum of postulates is a better theory (since there are less assumptions
+                           involved in its construction); from this point of view the General Theory of
+                           Relativity is a gem 3 .
+
+                               The completed formulation of the General Theory of Relativity was pub-
+                           lished in 1916 (Fig. 7.2).
+
+
+
+
+                                    Figure 7.2: Einstein’s General Theory of Relativity paper.
+
+
+
+
+                               3
+                                 The Special Theory of Relativity is equally nice, it is based on the one statement that
+                           all inertial frames of reference are equivalent.
+                                                                                    155
+
+7.1.1     Newton vs. Einstein
+I have stated that Newton’s mechanics and his theory of gravitation are but
+approximations to reality and whose limitations are now known 4 . So it
+might be questionable to use F = ma and Fgrav = mM G/r2 as basis to any
+argument as was done above. Einstein was careful to use these expressions
+only in situations where they are extremely accurate (small speeds com-
+pared to c and small gravitational forces). In these cases the inertial and
+gravitational masses are identical, as shown by experiment. Then he postu-
+lated that the same would be true under all circumstances. This statement,
+while consistent with Newton’s equations, cannot, in a strict logical sense,
+be derived from them.
+
+
+7.2      Gravitation vs acceleration
+Consider the following experiment: a person is put in a room-size box high
+above the moon (chosen because there is no air and hence no air friction)
+with a bunch of measuring devices. This box is then taken high above the
+lunar surface and then let go: the box is then freely falling. The question
+is now, can the observer determine whether he/she is falling or whether
+he/she is in empty space unaffected by external forces (of course the answer
+is supposed to come before the box hits the surface). The answer to that is
+a definite NO! The observer can do experiments by looking at how objects
+move when initially at rest and when given a kick, he/she will find that they
+appear to move as is there were no gravitational forces at all! Similarly any
+experiment in physics, biology, etc. done solely inside the box will be unable
+to determine whether the box is freely falling or in empty space.
+     Why is that? Because of the equality of the gravitational and inertial
+masses. All objects are falling together and are assumed to be rather close
+to each other (the box is not immense) hence the paths they will follow will
+be essentially the same for each of them. So if the observer lets go of an
+apple, the apple and the observer follow essentially the same trajectory, and
+this implies that the observer will not see the apple move with respect to
+him. In fact, if we accept the priniciple of equivalence, nothing can be done
+to determine the fact that the observer is falling towards the Moon, for this
+can be done only if we could find some object which behaved differently from
+all the rest, and this can happen only if its gravitational and inertial masses
+  4
+    For all we know our present theories of mechanics and gravitation may also be invalid
+under certain conditions.
+                               156
+
+                               are different. The principle of equivalence then implies that the observer
+                               will believe that he/she is an inertial frame of reference...until disabused of
+                               the notion by the crash with the surface.
+                                   The principle of equivalence is of interest neither because its simplicity,
+                               nor because it leads to philosophically satisfying conclsions. It’s importance
+                               is based on the enormous experimental evidence which confirms it; as with
+                               the Special Theory, the General Theory of Relativity is falsifiable.
+
+
+
+
+                               Figure 7.3: An observer cannot distinguish between acceleration produced
+                               by a rocket and the acceleration produced by gravity.
+
+                                   The lesson is that for any gravitational force we can always choose a
+                               frame of reference in which an observer will not experience any gravitational
+For any gravitational force    effects in his/her immediate vicinity (the reason for this last qualification
+we can always choose a         will become clear below). Such a frame of reference is, as stated above,
+frame of reference in which
+an observer will not
+experience any gravitational
+effects in his/her immediate
+vicinity
+                                                                             157
+
+freely falling.
+    Conversely one can take the box an attach it to a machine that accel-
+erates it (Fig. 7.3). If an observer drops an apple in such an accelerated
+box he/she will see the apple drop to the floor, the observer will also feel
+hi/her-self pressed against the bottom of the box, etc. The observer can-
+not distinguish between this situation and the one he/she would experience
+in the presence of gravitational forces! As long as we do experiments in a
+small region, the effects produced by a gravitational force are indistinguish-
+able from those present in an accelerated reference frame.                          In a small region the effects
+    Does this mean that the gravitational forces are a chimera, an illusion?        produced by a gravitational
+                                                                                    force are indistinguishable
+Of course no. Consider for example Fig. 7.4, two apples fall to the Moon            from those present in an
+inside a box which is also falling. If they are separated by a sufficiently         accelerated reference frame
+large distance an observer falling with the apples and box will find that the
+distance between the apples shortens as time goes on: this cannot be an
+inertial frame he argues (or else it is, but there is some force acting on the
+apples).
+    This same set-up can be used to distinguish between a box under the
+influence of a gravitational force and one being pulled by a machine; again
+we need a very big box (planet-sized). An observer places an two apples at
+the top of the box and releases them, he/she carefully measures its initial
+separation. The apples fall to the bottom of the box and the observer
+measures their separation there. If it is the same as above, and is the same
+irrespective of their initial separation, the observer is being pulled by a
+machine (box and all). If the separation is different, he/she can conclude
+that he/she is experiencing the effects of a gravitational force.
+
+
+7.3     Light
+A very surprising corollary of the above is that light paths are bent by
+gravitational forces! I will argue this is true in a slightly round-about way.
+    Consider an elevator being pulled by a crane so that it moves with con-
+stant acceleration (that is its velocity increases uniformly with time). Sup-
+pose that a laser beam propagating perpendicular to the elevator’s direction
+of motion enters the elevator through a hole on the left wall and strikes the
+right wall. The idea is to compare what the crane operator and the elevator
+passenger see.
+    The crane operator, who is in an inertial frame of reference, will see the
+sequence of events given in Fig. 7.5. Note, that according to him/her, light
+travels in a straight line (as it must be since he/she is in an inertial frame!).
+                               158
+
+
+
+
+                               Figure 7.4: Experiment that differentiates between a gravitational effect and
+                               the effects of uniform acceleration: for an observer in the box the apples will
+                               draw closer.
+
+
+                                   The elevator passenger will see something very different as shown in Fig.
+                               7.5: the light-path is curved! Thus for this simple thought experiment light
+                               paths will be curved for observers inside the elevator.
+                                   Now we apply the equivalence principle which implies that we cannot
+                               distinguish between an elevator accelerated by a machine and an elevator
+                               experiencing a constant gravitational force. It follows that the same effect
+                               should be observed if we place the elevator in the presence of a gravitational
+Light light paths are curved   force: light paths are curved by gravity
+by gravity
+                                   That gravity affects the paths of planets, satellites, etc. is not something
+                               strange. But we tend to think of light as being different somehow. The above
+                               argument shows that light is not so different from other things and is indeed
+                               affected by gravity in a very mundane manner (the same elevator experiment
+                               could be done by looking at a ball instead of a beam of light and the same
+                                                                          159
+
+
+
+
+Figure 7.5: Left: sequence of events seen by an crane operator lifting an
+elevator at constant acceleration (the speed increases uniformly with time).
+The short horizontal line indicates a laser pulse which, at the initial time,
+enters through an opening on the left-hand side of the elevator. At the
+final time the light beam hits the back wall of the elevator. Right: same
+sequence of events seen by a passenger in an elevator being hoisted by a
+crane. The line joining the dots indicates the path of a laser which, at the
+initial time, enters through an opening on the left-hand side of the elevator.
+At the final time the light beam hits the back wall of the elevator.
+
+
+sort of picture would result).
+    A natural question is then, why do we not see light fall when we ride
+an elevator? The answer is that the effect in ordinary life is very small.
+Suppose that the height of the elevator in Fig. 7.5 is 8 ft. and its width
+is 5 ft; if the upward acceleration is 25% that of gravity on Earth then the
+distance light falls is less than a millionth of the radius of a hydrogen atom
+(the smallest of the atoms). For the dramatic effect shown in the figure
+the acceleration must be enormous, more than 1016 times the acceleration
+of gravity on Earth (this implies that the passenger, who weights 70 kg on
+Earth, will weigh more than 1,000 trillion tons in the elevator).
+160
+
+    This does not mean, however, that this effect is completely unobservable
+(it is small for the case of the elevator because elevators are designed for
+very small accelerations, but one can imagine other situations). Consider
+from example a beam of light coming from a distant star towards Earth
+(Fig. 7.6) which along the way comes close to a very massive dark object.
+The arguments above require the light beam to bend; and the same thing
+will happen for any other beam originating in the distant star. Suppose that
+the star and the opaque object are both prefect spheres, then an astronomer
+on Earth will see, not the original star, but a ring of stars (often called an
+“Einstein ring). If either the star or the massive dark object are not perfect
+spheres then an astronomer would see several images instead of a ring (Fig.
+7.7). This effect has been christened gravitational lensing since gravity acts
+here as a lens making light beams converge.
+
+
+
+
+Figure 7.6: Diagram illustrating the bending of light from a star by a massive
+compact object. If both the bright objects and the massive object are prefect
+sphere, there will be an apparent image for every point on the “Einstein
+ring”.
+
+    How do we know that the multiple images which are sometimes seen (Fig.
+7.7) are a result of the bending of light? The argument is by contradiction:
+                                                                              161
+
+
+
+
+Figure 7.7: The Einstein Cross: four images of a quasar GR2237+0305 (a
+very distant – 8 billion light-years–, very bright object) appear around the
+central glow. The splitting of the central image is due to the gravitational
+lensing effect produced by a nearby galaxy. The central image is visible
+because the galaxy does not lie on a straight line from the quasar to Earth.
+The Einstein Cross is only visible from the southern hemisphere.
+
+
+
+
+suppose they are not, that is suppose, that the images we see correspond to
+different stars. Using standard astronomical tools one can estimate the dis-
+tance between these stars; it is found that they are separated by thousands
+of light years, yet it is observed that if one of the stars change, all the others
+exhibit the same change instantaneously! Being so far apart precludes the
+possibility of communication between them; the simplest explanation is the
+one provided by the bending of light. It is, of course, possible to ascribe
+these correlations as results of coincidences, but, since these correlations
+are observed in many images, one would have to invoke a “coincidence” for
+hundreds of observations in different parts of the universe.
+
+    The bending of light was one of the most dramatic predictions of the
+General Theory of Relativity, it was one of the first predictions that were
+verified as we will discuss below in Sect. 7.12.
+162
+
+7.4       Clocks in a gravitational force.
+When comparing a clock under the influence of gravitational forces with one
+very far from such influences it is found that the first clock is slow compared
+to the second. To see this consider the same clock we used in the Special
+Theory of Relativity. For this experiment, however, imagine that the clock
+is being accelerated upward, being pulled by a crane. The clock gives off a
+short light pulse which moves towards the mirror at the top of the box, at
+the same time the mirror recedes from the pulse with even increasing speed
+(since the box accelerates). Still the pulse eventually gets to the mirror
+where it is reflected, now it travels downward where the floor of the box is
+moving up also with ever increasing velocity (see Fig. 7.8).
+
+
+
+
+Figure 7.8: An accelerated clock. The circle denotes a pulse of light which
+at the initial is sent from a source; after a time it reaches the top of the the
+box and is reflected. The time it takes to do the trip is longer than for a
+clock at rest.
+
+      On the trip up the distance covered by light is larger than the height
+                                                                             163
+
+of the box at rest, on the trip down the distance is smaller. A calculation
+shows that the whole distance covered in the trip by the pulse is larger than
+twice the height of the box, which is the distance covered by a light pulse
+when the clock is at rest.
+    Since light always travels at the same speed, it follows that the time it
+takes for the pulse to go the round trip is longer when accelerating than
+when at rest: clocks slow down whenever gravitational forces are present.
+    This has an amazing consequence: imagine a laser on the surface of
+a very massive and compact planet (so that the gravitational field is very
+strong). An experimenter on the planet times the interval between two crests
+of the laser light waves and gets, say, a millionth of a second. His clock ,
+however, is slow with respect to the clock of an observer far away in deep
+space, this observer will find that the time between two crests is larger. This
+implies that the frequency of the laser is larger on the planet than in deep
+space: light leaving a region where gravity is strong reddens. This is called       Light leaving a region where
+the gravitational red-shift (see Fig. 7.9).                                         gravity is strong reddens
+
+
+
+
+Figure 7.9: The gravitational redshidft. Since clocks slow down in a strong
+gravitational field then light, whose oscillations can be used as clocks, will
+be shifter towards the red as it leaves a region where gravity is strong.
+
+    As for time dilation, the slowing down of clocks in the presence of gravi-
+tational forces affects all clocks, including biological ones. A twin trveling to
+164
+
+a region where gravity is very strong will come back a younger than the twin
+left in a rocket in empty space. This is an effect on top of the one produced
+by time dilation due to the motion of the clocks. The gravitational forces
+required for a sizable effect, however, are enormous. So the twin will return
+younger...provided she survives.
+
+
+7.5     Black holes
+So gravity pulls on light just as on rocks. We also know that we can put
+rocks in orbit, can we put light in orbit? Yes! but we need a very heavy
+object whose radius is very small, for example, we need something as heavy
+as the sun but squashed to a radius of less than about 3km. Given such an
+object, light moving towards it in the right direction will, if it comes close
+enough land in an orbit around it. If you place yourself in the path of light
+as it orbits the object, you’d be able to see your back.
+    But we can go farther and imagine an object so massive and compact
+that if we turn on a laser beam on its surface gravity’s pull will bend it
+back towards the surface. Think what this means: since no light can leave
+this object it will appear perfectly black, this is a black hole. An object
+which comes sufficiently close to a black hole will also disappear into it
+(since nothing moves faster than light if an object traps light it will also
+trap everything else).
+    The effect of a black holes, like all gravitational effects, decreases with
+distance. This means that there will be a “boundary” surrounding the black
+hole such that anything crossing it will be unable to leave the region near
+the black hole; this boundary is called the black-hole horizon see Fig. 7.10
+Anything crossing the horizon is permanently trapped. Black holes are
+prefect roach motels: once you check in (by crossing the horizon), you never
+check out.
+    The distance from the black hole to the horizon is determined by the
+mass of the black hole: the larger the mass the mode distant is the horizon
+from the center. For a black hole with the same mass as out sun the horizon
+is about 3 km from the center; for black holes with a billion solar masses
+(yes there are such things) this is increased to 3×109 km, about the distance
+from the sun to Uranus. For very massive black holes the horizon is so far
+away from the center that an observer crossing it might not realize what has
+just happened, only later, when all efforts to leave the area prove futile, the
+dreadful realization of what happened will set in.
+    Imagine a brave (dumb?) astronaut who decides to through the horizon
+                                                                            165
+
+
+
+
+Figure 7.10: Illustration of the horizon surrounding the black hole. The
+black holes is represented by the small heavy dot, the light rays or particle
+trajectories which cross the dotted line cannot cross it again.
+
+
+and into the nearest black hole and let us follow his observations. The first
+effects that becomes noticeable as he approaches the event horizon is that
+his clock ticks slower and slower with respect to the clocks on his spaceship
+very far from the black hole (see Sect. 7.4) to the point that it will take
+infinite spaceship time for him to cross the horizon. In contrast it will take
+a finite amount of astronaut time to cross the horizon, an extreme case of
+the relativity of time.
+    As the astronaut approaches the horizon the light he emits will be more
+and more shifted towards the red (see Sect. 7.4) eventually reaching the
+infrared, then microwaves, then radio, etc. In order to see him the spaceship
+will eventually have to detect first infrared light, then radio waves, then
+microwaves, etc.
+    After crossing the horizon the astronaut stays inside. Even though the
+crossing of the horizon might not be a traumatic experience the same cannot
+be said for his ultimate fate. Suppose he decides to fall feet first, then, when
+sufficiently close to the black hole, the gravitational pull on his feet will be
+much larger than that on his head and he will be literally ripped to pieces.
+   So far black holes appear an unfalsifiable conclusion of the General The-
+166
+
+ory of Relativity: their properties are such that no radiation comes out of
+them so they cannot be detected from a distance, and if you should decide
+to go, you cannot come back to tell your pals whether it really was a black
+hole or whether you died in a freak accident. Doesn’t this contradict the
+basic requirement that a scientific theory be falsifiable (Sect. 1.2.1)?
+
+
+
+
+Figure 7.11: Artist’s version of a black hole accreting matter from a compan-
+ion star. The Star is on the left of the picture and is significantly deformed
+by the gravitational pull of the black hole; the object on the right represents
+the matter which surrounds the black hole and which is being sucked into
+it. The black hole is too small to be seen on the scale of this picture
+
+    Well, no, General Theory of Relativity even in this one of its most ex-
+treme predictions is falsifiable. The saving circumstance is provided by
+the matter surrounding the black hole. All such stuff is continuously being
+dragged into the hole (see Fig. 7.11) and devoured, but in the process it gets
+extremely hot and radiates light, ultraviolet radiation and X rays. More-
+over, this cosmic Maelstrom is so chaotic that the radiation changes very
+rapidly, sometimes very intense, sometimes much weaker, and these changes
+come very rapidly (see Fig. 7.12). From this changes one can estimate the
+size of the object generating the radiation.
+    On the other hand astronomers can see the gravitational effects on near-
+by stars of whatever is making the radiation. And from these effects they
+                                                                                   167
+
+
+
+
+   Figure 7.12: X-ray emission from a black hole candidate (Cygnus X1)
+
+
+can estimate the mass of the beast. Knowing then the size, the manner in
+which matter radiates when it comes near, and the mass one can compare
+this to the predictions of General Theory of Relativity and decide whether
+this is a black hole or not. The best candidate for a black hole found in this
+way is called Cygnus X1 (the first observed X ray source in the constellation
+Cygnus, the swan).
+    All the ways we have of detecting black holes depend on the manner in
+which they affect the matter surrounding them. The most striking example
+is provided by some observation of very distant X-ray sources which are
+known to be relatively compact (galaxy size) and very far away. Then the
+very fact that we can see them implies that they are extremely bright objects,
+so bright that we know of only one source that can fuel them: the radiation
+given off by matter while being swallowed by a black hole 5 . So the picture
+we have of these objects, generically called active galactic nuclei, is that of
+a supermassive (a billion solar masses or so) black hole assimilating many
+stars per second, and in disappearing these stars give off the energy that
+announces their demise.
+    All this from the (apparently) innocent principle of equivalence.
+
+
+7.6     Gravitation and energy
+Consider a beam of sunlight falling on your skin; after a while your skin
+warms and, eventually, will burn: light carries energy (which is absorbed
+by your skin thus increasing its temperature). Recall also that a body with
+   5
+     This is much more efficient than nuclear power which would be incapable of driving
+such bright sources.
+                               168
+
+                               mass m, by its very existence, carries and energy mc2 (Sec. 6.2.8). There is
+                               no way, however, in which we can associate a mass with light; for example,
+                               we can always change the speed of a mass (even if only a little bit), but this
+                               cannot be done with light.
+                                   The force of gravity affects both light and all material bodies; since
+                               both carry energy, but only the bodies carry mass, it follows that gravity
+Gravity will affect anything   will affect anything carrying energy. This conclusion lies at the root of the
+carrying energy                construction of Einstein’s equations which describe gravity.
+                                   Note that this conclusion has some rather strange consequences. Con-
+                               sider for example a satellite in orbit around the Earth, when the Sun shines
+                               on it it will increase its energy (it warms up), and gravity’s pull with it.
+                               When the satellite is in darkness it will radiate heat, lose energy and the
+                               force of gravity on it will decrease 6 .
+                                   Again let me emphasize that this argument is not intended to imply that
+                               light carries mass, but that gravity will affect anything that carries energy.
+
+
+                               7.7        Space and time.
+                               When considering the Special Theory of Relativity we concluded that the
+                               state of motion of an observer with respect to, say, a laboratory, determines
+                               the rate at which his/her clocks tick with respect to the lab’s clocks (see
+                               Sect.6.2.3). Thus, in this sense, time and space mingle: the position of the
+                               observer (with respect to the lab’s measuring devices) determines, as time
+                               evolves, his/her state of motion, and this in turn determines the rate at
+                               which his/her clocks tick with respect to the lab’s.
+                                    Now consider what happens to objects moving under the influence of a
+                               gravitational force: if initially the objects set out at the same spot with the
+                               same speed they will follow the same path (as required by the principle of
+                               equivalence). So what!? To see what conclusions can be obtain let me draw
+                               a parallel, using another murder mystery.
+                                    Suppose there is a closed room and a line of people waiting to go in. The
+                               first person goes in and precisely two minutes afterward, is expelled through
+                               a back door, dead; it is determined that he died of a blow to the head. The
+                               police concedes that the room is worth investigating, but procrastinates,
+                               alleging that the person was probably careless and his death was accidental.
+                               Soon after, however, a second victim enters the room with precisely the
+                               same results, she also dies of an identical blow to the head; the police claims
+                               an astounding coincidence: two accidental deaths. This goes on for many
+                                 6
+                                     Needless to say this is a very small effect, of the order of one part in a trillion.
+                                                                                   169
+
+hours, each time the victim dies of the same thing irrespective of his/her
+age, occupation, habits, color, political persuasion or taste in Pepsi vs. Coke;
+animals suffer the same fate, being insects of whales. If a rock is sent flying
+in, it comes out with a dent of the same characteristics as the ones suffered
+by the people and animals.
+    The police finally shrewdly concludes that there is something in the room
+that is killing people, they go in and... But the result is not important, what
+is important for this course is the following. We have a room containing
+something which inflicts a certain kind of blow to everything going through
+the room, I can then say that this inflicting of blows is a property of the
+room.
+    Consider now a region of empty space relatively near some stars. Assume
+that the only force felt in this region is the gravitational pull of these stars,
+hence all objects, people, animals, etc. going into this region will accelerate
+in precisely the same way. Then I can state that the region in space has a
+property which generates this acceleration 7 .
+    Remember however that the region considered was in empty space (it
+only contains the objects we send into it), yet some property of this re-
+gion determines the motion of anything that goes through it; moreover this
+property is a result of the gravitational pull of nearby heavy objects. The
+conclusion is then that gravity alters the properties of space, we also saw
+that the rates of clocks are altered under the influence of a gravitational
+force, it follows that gravity alters the properties of space and time. Space              Gravity alters the properties
+and time is in fact very far from the unchanging arena envisaged by New-                   of space and time
+
+ton, they are dynamical objects whose properties are affected by matter and
+energy. These changes or deformations of space and time in turn determine
+the subsequent motion of the bodies in space time: matter tells space-time
+how to curve and space-time tells matter how to move (Fig. 7.13).                          Matter tells space-time how
+                                                                                           to curve and space-time
+                                                                                           tells matter how to move
+
+
+
+
+Figure 7.13: An illustration of the bending of space produced by a massive
+object
+
+   7
+    I assume that the objects coming into this region are not too heavy, so that their
+gravitational forces can be ignored and that the start from the same spot with identical
+velocities.
+170
+
+7.8     Properties of space and time.
+Up to here I’ve talked little of the implications of the Special Theory of
+Relativity on the General Theory of Relativity, I have only argued that in
+special relativity time and space are interconnected. In a separate discussion
+I argued that gravity alters space. In this section I will use what we know
+about length contraction together with the equivalence principle to deter-
+mine how space is altered by gravity and to show that it is this deformation
+of space that is responsible for the gravitational force.
+     Imagine two disks, one of which is made to rotate uniformly as in 7.14;
+each disk has its own observer provided with a meter stick, labeled ! and
+!o in the figure. The disks are so constructed that when overlapping their
+circumferences match. The rotating meter stick is continually moving along
+its length so that ! will be length-contracted with respect to !0 , so a larger
+number of ! will fit in the circumference. This means that the rotatingh
+observer measures a longer circumference than the non-rotating (inertial)
+observer.
+
+
+
+
+Figure 7.14: A rotating vs a non-rotating disk. The bit labeled ! in the
+rotating disk is shorter, due to length contraction to the corresponding bit
+!o in the non-rotating disk.
+
+    Consider now a radius of the disks. This is a length that is always
+perpendicular to the velocity of the disk and it is unaffected by the rotation:
+both disks will continue to have the same radius (see Sect. 6.2.4).
+    So now we have one non-rotating disk whose circumference is related
+to the radius by the usual formula, circumf erence = 2π × radius, and a
+rotating disk whose observer measures a larger circumference but the same
+radius. In the rotating obnserver the formula does not hold!
+                                                                             171
+
+    How can this be? Isn’t it true that the perimeter always equals 2π
+radius? The answer to the last question is yes...provided you draw the circle
+on a flat sheet of paper. Suppose however that you are constrained to draw
+circles on a sphere, and that you are forced to measure distances only on
+the sphere. Then you find that the perimeter measured along the sphere is
+smaller than 2π×radius (with the radius also measured along the sphere,
+see Fig. 7.15).
+
+
+
+
+Figure 7.15: The distance from the equator to the pole on a sphere is larger
+than the radius. For being constrained to move on the surface of the sphere
+this distance is what they would call the radius of their universe, thus for
+them the circumference is smaller than 2π×radius and they can conclude
+that they live in curved space.
+
+    A similar situation is observed in the rotating disk with a similar solution:
+the reason the rotating observer fids that the circumference is not equal
+to 2π times the radius is that this observer is in a curved surface. On a
+sphere we just saw that 2π× > circumf erence, in a saddle-shaped surface
+2π× < circumf erence as in the situation we have been looking at.
+    We conclude that the uniformly rotating disk behaves as a (piece of a)
+saddle-shaped due to length contraction. So much for the effects of special
+relativity.
+    Now let us go back to the principle of equivalence. One of its conse-
+quences is that, by doing experiments in a small region one cannot distin-
+guish between a gravitational force and an accelerated system. So if we
+                           172
+
+                           attach a small laboratory of length !0 (at rest) to the small section of the
+                           perimeter, experiments done there will not be able to tell whether the lab.
+                           is in a rotating disk or experiences a gravitational force (remember that a
+                           rotating object is changing its velocity – in direction – and it is therefore
+                           accelerating!).
+                               Putting together the above two arguments we get
+Gravitation curves space         Gravitation curves space and time.
+and time
+                               Conversely curved space and time generate effects which are equivalent
+                           to gravitational effects. In order to visualize this imagine a world where
+                           all things can only move on the surface of a sphere. Consider two beings
+                           labeled A and B as in Fig. 7.16, which are fated live on the surface of this
+                           sphere. On a bright morning they both start from the equator moving in a
+                           direction perpendicular to it (that is, they don’t meander about but follow
+                           a line perpendicular to the equator).
+
+
+
+
+                           Figure 7.16: Two beings moving on a sphere are bound to come closer just
+                           as they would under the effects of gravity
+
+                                As time goes on the two beings will come closer and closer. This effect
+                           is similar to the experiment done with two apples falling towards the moon
+                           (Fig. 7.4): an observer falling with them will find their distance decreases
+                           as time progresses; sentient apples would find that they come closer as time
+                           goes on.
+                                                                                    173
+
+    So we have two descriptions of the same effect: on the one hand grav-
+itational forces make the apples approach each other; on the other hand
+the fact that a sphere is curved makes the two beings approach each other;
+mathematically both effects are, in fact, identical. In view of this the conclu-
+sion that gravity curves space might not be so peculiar after all; moreover,
+in this picture the equivalence principle is very natural: bodies move the
+way they do due to the way in which space is curved and so the motion is
+independent of their characteristics 8 , in particular the mass of the body                 Bodies move the way they
+does not affect its motion.                                                                 do due to the way in which
+                                                                                            space is curved and so the
+                                                                                            motion is independent of
+                                                                                            their characteristics
+
+
+
+
+Figure 7.17: Just as bugs fated to live on the surface of a sphere might find
+it peculiar to learn their world is curved, so we might find it hard to realize
+that our space is also curved.
+
+    Now the big step is to accept that the same thing that happened to the
+   8
+     I am assuming here that the moving things are not massive enough to noticeably curve
+space on their own.
+174
+
+above beings is happening to us all the time. So how come we don’t see that
+the space around us is really curved? The answer is gotten by going back
+to the beings A and B: they cannot “look out” away from the sphere where
+they live, they have no perception of the perpendicular dimension to this
+sphere, and so they cannot “see it from outside” and realize it is curved.
+The same thing happens to us, we are inside space, in order to see it curved
+we would have to imagine our space in a larger space of more dimensions
+and then we could see that space is curved; Fig. 7.17 gives a cartoon version
+of this.
+
+
+7.9     Curvature
+When considering the beings living on a sphere it is easy for us to differen-
+tiate between the sphere and some plane surface: we actually see the sphere
+being curved. But when it comes to us, and our curved space, we cannot see
+it since this would entail our standing outside space and looking down on
+it. Can we then determine whether space is curved by doing measurements
+inside it?
+    To see that this can be done let’s go back to the beings on the sphere.
+Suppose they make a triangle by the following procedure: they go form the
+equator to the north pole along a great circle (or meridian) of the sphere, at
+the north pole they turn 90o to the right and go down another great circle
+until they get to the equator, then they make another 90o turn to the right
+until they get to the starting point (see Fig. 7.18). They find that all three
+lines make 90o angles with each other, so that the sum of the angles of this
+triangle is 270o , knowing that angles in all flat triangles always add up to
+180o they conclude that the world they live on is not a flat one. Pythagoras’
+theorem only holds on flat surfaces
+    We can do the same thing: by measuring very carefully angles and dis-
+tances we can determine whether a certain region of space is curved or not.
+In general the curvature is very slight and so the distances we need to cover
+to observe it are quite impractical (several light years), still there are some
+special cases where the curvature of space is observed: if space were flat
+light would travel in straight lines, but we observe that light does no such
+thing in regions where the gravitational forces are large; I will discuss this
+further when we get to the tests of the General Theory of Relativity in the
+following sections.
+    The curvature of space is real and is generated by the mass of the bodies
+in it. Correspondingly the curvature of space determines the trajectories of
+                                                                             175
+
+
+
+
+Figure 7.18: A path followed by a determined being living on the surface of
+a sphere; each turn is at right angles to the previous direction, the sum of
+the angles in this triangle is then 270o indicating that the surface in which
+the bug lives is not flat.
+
+
+all bodies moving in it. The Einstein equations are the mathematical em-
+bodiment of this idea. Their solutions predict, given the initial positions and
+velocities of all bodies, their future relative positions and velocities. In the
+limit where the energies are not too large and when the velocities are signif-
+icantly below c the predictions of Einstein’s equations are indistinguishable
+from those obtained using Newton’s theory. At large speeds and/or energies
+significant deviations occur, and Einstein’s theory, not Newton’s, describes
+the observations.
+
+
+7.10      Waves
+A classical way of picturing the manner in which heavy bodies curve space
+is to imagine a rubber sheet. When a small metal ball is made to roll on
+it it will go in a straight line at constant speed (neglecting friction). Now
+imagine that a heavy metal ball is placed in the middle of the sheet; because
+of its weight the sheet will be depressed in the middle (Fig 7.13). When a
+small ball is set rolling it will no longer follow a straight line, its path will
+176
+
+be curved and, in fact, it will tend to circle the depression made by the
+heavy ball. The small ball can even be made to orbit the heavy one (it will
+eventually spiral in and hit the heavy ball, but that is due to friction, if
+the sheet is well oiled it takes a long time for it to happen). This toy then
+realizes what was said above: a heavy mass distorts space (just as the heavy
+ball distorts the rubber sheet). Any body moving through space experiences
+this distortion and reacts accordingly.
+    Now imagine what happens if we drop a ball in the middle of the sheet.
+It will send out ripples which spread out and gradually decrease in strength.
+Could something similar happen in real life? The answer is yes! When there
+is a rapid change in a system of heavy bodies a large amount of gravitational
+waves are produced. These waves are ripples in space which spread out form
+their source at the speed of light carrying energy away with them.
+    A computer simulation of a gravitational wave is given in Fig. 7.19. The
+big troughs denote regions where the wave is very intense, the black dot
+at the center denotes a black hole, the ring around the hole represents the
+black hole’s horizon.
+
+
+
+
+Figure 7.19: A computer simulation of a gravitational wave generated by a
+collision of two black holes, which have now merged and are represented by
+the heavy black dot in the middle.
+
+    Can we see gravitational waves? Not yet directly, but we have very strong
+indirect evidence of their effects. Several systems which according to the
+General Theory of Relativity ought to lose energy by giving off gravitational
+waves have been observed. The observations show that these systems lose
+energy, and the rate at which this happens coincides precisely with the
+                                                                           177
+
+predictions from the theory.
+    Observing gravitational waves directly requires very precise experiments.
+The reason is that, as one gets farther and farther away from the source these
+waves decrease in strength very rapidly. Still, if a relatively strong gravita-
+tional wave were to go by, say, a metal rod, its shape would be deformed
+by being stretched and lengthened periodically for a certain time. By ac-
+curately measuring the length of rods we can hope to detect these changes.
+The technical problems, however, are enormous: the expected variation is
+of a fraction of the size of an atom! Nonetheless experiments are under way.
+    Gravitational waves are generated appreciably only in the most violent
+of cosmic events. During the last stages in the life of a star heavier than 3
+solar masses, most of the stellar material collapses violently and inexorably
+to form a black hole (n the rubber sheet picture this corresponds to drop-
+ping a very small and very heavy object on the sheet). The corresponding
+deformation of space travels forth from this site site as a gravitational wave.
+High intensity gravitational waves are also produced during the collision of
+two black holes or any sufficiently massive compact objects.
+
+
+7.11     Summary.
+The conclusions to be drawn from all these arguments are,
+
+   • All frames of reference are equivalent, provided we are willing to in-
+     clude possible gravitational effects (in non-inertial or accelerated frames
+     forces will appear which are indistinguishable from gravitational forces).
+
+   • Space-time is a dynamic object: matter curves it, and the way in which
+     it is curved determines the motion of matter in it. Since all bodies are
+     affected in the same way by the curvature of space and time the effects
+     of gravity are independent of the nature of the body. Changes in the
+     distribution of matter change space-time deforming it, and, in some
+     instances, making it oscillate.
+
+
+7.12     Tests of general relativity.
+After Einstein first published the General Theory of Relativity there was a
+very strong drive to test its consequences; Einstein himself used his equa-
+tions to explained a tiny discrepancy in the motion of Mercury. Yet he most
+dramatic effect was the shifting of the positions of the stars (see below).
+178
+
+Since 1916 there have been many measurements which agree with the Gen-
+eral Theory of Relativity to the available accuracy. Here I will concentrate
+on the “classical” tests of the thoery.
+
+
+
+7.12.1    Precession of the perihelion of Mercury
+
+A long-standing problem in the study of the Solar System was that the orbit
+of Mercury did not behave as required by Newton’s equations.
+   To understand what the problem is let me describe the way Mercury’s
+orbit looks. As it orbits the Sun, this planet follows an ellipse...but only ap-
+proximately: it is found that the point of closest approach of Mercury to the
+sun does not always occur at the same place but that it slowly moves around
+the sun (see Fig. 7.20). This rotation of the orbit is called a precession.
+    The precession of the orbit is not peculiar to Mercury, all the plane-
+tary orbits precess. In fact, Newton’s theory predicts these effects, as be-
+ing produced by the pull of the planets on one another. The question is
+whether Newton’s predictions agree with the amount an orbit precesses; it
+is not enough to understand qualitatively what is the origin of an effect,
+such arguments must be backed by hard numbers to give them credence.
+The precession of the orbits of all planets except for Mercury’s can, in fact,
+be understood using Newton;s equations. But Mercury seemed to be an
+exception.
+    As seen from Earth the precession of Mercury’s orbit is measured to
+be 5600 seconds of arc per century (one second of arc= 1/3600 degrees).
+Newton’s equations, taking into account all the effects from the other planets
+(as well as a very slight deformation of the sun due to its rotation) and the
+fact that the Earth is not an inertial frame of reference, predicts a precession
+of 5557 seconds of arc per century. There is a discrepancy of 43 seconds of
+arc per century.
+    This discrepancy cannot be accounted for using Newton’s formalism.
+Many ad-hoc fixes were devised (such as assuming there was a certain
+amount of dust between the Sun and Mercury) but none were consistent
+with other observations (for example, no evidence of dust was found when
+the region between Mercury and the Sun was carefully scrutinized). In con-
+trast, Einstein was able to predict, without any adjustments whatsoever,
+that the orbit of Mercury should precess by an extra 43 seconds of arc per
+century should the General Theory of Relativity be correct.
+                                                                          179
+
+
+
+
+Figure 7.20: Artist’s version of the precession of Mercury’s orbit. Most of
+the effect is due to the pull from the other planets but there is a measurable
+effect due to the corrections to Newton’s theory predicted by the General
+Theory of Relativity.
+
+
+7.12.2    Gravitational red-shift.
+We saw in Sec. 7.4 that light leaving a region where the gravitational force
+is large will be shifted towards the red (its wavelength increases; see Figs.
+??,7.9); similarly, light falling into a region where the gravitational pull
+is larger will be shifted towards the blue. This prediction was tested in
+Harvard by looking at light as it fell from a tower (an experiment requiring
+enormous precision since the changes in the gravitational force from the
+top to the bottom of a tower are minute) and the results agree with the
+predictions from the General Theory of Relativity.
+    The gravitational red-shift was also tested by looking at the light from
+a type of stars which are very very well-studied. The observations showed
+that the light received on Earth was slightly redder than expected and that
+the reddening is also in agreement with the predictions from the General
+Theory of Relativity.
+
+7.12.3    Light bending
+If we imagine observing a beam of light in an accelerated elevator we will see
+that the light path is curved. By the equivalence principle the same must
+be true for light whenever gravitational forces are present. This was tested
+180
+
+
+
+
+Figure 7.21: Illustration of the gravitational red-shift predicted by the Gen-
+eral Theory of Relativity. A heavy object is denoted by a deformation of
+space represented by the funnel. As light leaves the vicinity of this object
+it is shifted towards the red: for a sufficiently compact and massive object
+a blue laser on the surface will be seen as red in outer space.
+
+
+by carefully recording the position of stars near the rim of the sun during
+an eclipse (see Fig. 7.22) and then observing the same stars half a year later
+when there is no eclipse.
+    During the eclipse the observed starlight reaches us only after passing
+through a region where gravitational effects from the sun are very strong
+(that is why only stars near the rim are used), but the observation half a
+year later are done at a time where the gravitational effects of the sun on
+starlight is negligible.
+    It is found that the position of the stars are displaced when photographs
+of both situations are compared (see Fig. 7.22). The deviations are the same
+as the ones predicted by General Relativity. Eddington first observed this
+effect in 1919 during a solar eclipse. The early 20th century telegram (see
+Fig. ??) announcing this observation for the frist time marks the change in
+our views about the structure of space time.
+
+7.12.4    The double pulsar
+There are certain kind of stars which are called pulsars (see Sect. 9.3.4).
+These are very compact objects (they have a diameter of about 10km but are
+several times heavier than the sun) which emit radio pulses at very regular
+intervals.
+    In the early 80’s, Taylor and Hules (recent Nobel prize winners for this
+work) discovered a system where one pulsar circles another compact object.
+Because the pulsar pulses occur at very regular intervals, they can be used
+as a clock. Moreover there are several physical effects which can be used to
+determine the shape of the orbits of the pulsar and the compact object. It
+                                                                           181
+
+
+
+
+Figure 7.22: Illustration of the effects of the gravitational bending of light:
+during an eclipse the observed positions of the stars will be shifted away
+from the Sun.
+
+was found that these objects are slowly spiraling into each other, indicating
+that the system is losing energy in some way.
+   This system can also be studied using the General Theory of Relativity
+which predicts that the system should radiate gravitational waves carrying
+energy with them and producing the observed changes. These predictions
+are in perfect agreement with the observations. This is the first test of
+General Theory of Relativity using objects outside our solar system.
+182
+
+
+
+
+Figure 7.23: Eddington’s telegram to Einstein announcing the observation
+of the bengin of light by a gravitational force as predicted by the General
+Theory of Relativity.
+

@@ -1,0 +1,111 @@
+                  Investigation: Lissajous Figures
+
+
+
+
+               Jules Antoine Lissajous was a French physicist who lived from
+       1822 to 1880. Like many physicists of his time, Lissajous was
+       interested in being able to see vibrations. He started off standing
+       tuning forks in water and watching the ripple patterns, but his most
+       famous experiments involved tuning forks and mirrors. For example,
+       by attaching a mirror to a tuning fork and shining a light onto it,
+       Lissajous was able to observe, via another couple of mirrors, the
+       reflected light twisting and turning on the screen in time to the
+       vibrations of the tuning fork. When he set up two tuning forks at right
+       angles, with one vibrating at twice the frequency of the other,
+       Lissajous found that the curved lines on the screen would combine to
+       make a figure of eight pattern.
+               The ABC logo is a 3:1 Lissajous figure—if Lissajous wanted to
+       see this pattern he would have to get one of his tuning forks to vibrate
+       three times faster than the other.
+                            Source: http://www.abc.net.au/science/holo/liss.htm
+
+It is possible to simulate Lissajous’ experiments mathematically using parametric
+equations. For example, plotting a graph with x=sin(2t), y=sin(t) generates Lissajous’
+figure 8.
+The figures that can be generated like this are called lissajous figures.
+Investigate Lissajous figures.
+There are a number of ways you could do this. A couple of ideas a presented below,
+but you should follow your own ideas.
+Some things you may consider exploring:
+   •   What affect do changes in amplitude have?
+   •   What do you get with different ratios of x and y period: try integer ratios (such
+       as 2:1), simple non-integer ratios (such as 3:2) and other ratios (such as 2.1:1).
+       Try to find a pattern so you can predict what the shape will look like for any
+       given ratio.
+   •   What is the effect of adding a phase shift to the x or y equation? For example
+       how does Lissajous’ figure 8 x=sin(2t), y=sin(t) change if we make it
+       x=sin(2t), y=sin(t + φ) for different values of φ?
+Some ideas for investigation
+1. Whatever else you do, it may be worthwhile plotting a few figures by hand on
+   graph paper, to help get an understanding of how the figures are formed. Start
+   with a table something like this:
+                    t                 x=sin(2t)                    y=sin(t)
+
+
+
+
+    and calculate x and y for enough values of t to complete the figure.
+2. You could automate the manual calculation and plotting by using a spreadsheet.
+   Your teacher can provide a sample spreadsheet if you don’t want to make your
+   own.
+3. Use signal generators and an oscilloscope to generate lissajous figures
+   electronically. See the separate sheet for details on how to set this up.
+4. A number of useful resources can be found on the Internet. Try a search on
+   “Lissajous Figures”. For example,
+   http://www.explorescience.com/activities/Activity_page.cfm?ActivityID=48
+   allows you to experiment with changing amplitude, period and phase shift.
+   Another site also allows you to play with the colours of the plot:
+   http://members.aol.com/edhobbs/applets/lissajous/
+5. If you feel adventurous you could try to reproduce Lissajous’ experiment with
+   tuning forks, mirrors and lights, but don’t expect this to be easy. We have a lot of
+   things we can try that Lissajous did not have access to and we know a lot more
+   about vibrations, partly because of his work. Try some of the other approaches
+   first.
+Generating lissajous figures electronically
+If you can get access to the right equipment, you can play with lissajous figures without using
+computer simulations.
+Up until the 1980s lissajous figures were used by radio and television engineers for
+comparing the frequency of transmitters and other equipment against a standard highly
+accurate signal source. Today other technologies are available that make this unnecessary, but
+we can still use the same equipment they used to explore lissajous figures.
+You need:
+    •   a cathode ray oscilloscope (sometimes called a CRO).
+    •   two audio frequency signal generators
+    •   Appropriate leads to connect the output of the signal generators to the inputs of the
+        CRO.
+First, connect only one signal generator to the input of the CRO. Set the signal generator to
+give a 1kHz sine wave output with an output level of about 1V. Set the CRO timebase to
+100µs per division and input level to 0.1V per division. (These settings are not critical, they
+are just approximate starting points so don’t worry if you can’t work out how to get them
+right.) Adjust the settings on the CRO until you can see a sine wave pattern on the screen.
+Don’t be afraid to play with the front panel controls on the CRO and signal generator to see
+what they do. The equipment is fairly robust, and short of dropping them you are not likely to
+do any damage.
+When you have a sine wave nicely displayed on the screen, adjust the settings of the signal
+generator to see what effect changing the frequency and amplitude has on the display.
+With this arrangement, the vertical movement of the beam on screen comes from the input
+from the signal generator. The horizontal movement of the beam across the screen comes
+from the internal time base in the CRO. Th is moves the beam from left to right at a constant
+speed. As a result we get a plot of y against t. For the next step we will replace the internal
+time base with the output from the second signal generator.
+Turn the timebase control of the oscilloscope fully clockwise until it reads X. (If there is no X
+setting, there may be a switch or control on the back of the CRO that switches to the external
+timebase.) The beam should stop moving from left to right and you should just see a vertical
+line in the middle of the screen.
+Now set the second signal generator to the same settings as the first and connect it to the
+second input on the CRO. Depending on the CRO, this may be on the front, or it may be a
+connection on the back. Now the horizontal movement of the beam is controlled by the
+second signal generator. Adjust the amplitude of the second signal generator so the beam
+stays on the screen. If you can’t see anything on the screen then you probably need to reduce
+amplitude.
+Now carefully adjust the frequency of one of the signal generators until you can see a
+lissajous figure. You should be able to generate many lissajous figures by selecting different
+frequency ratios. It will be easiest to ‘tune in’ the figures if you stick to fairly low frequencies
+(i.e. nothing higher than about 1kHz.) The trace is only stable if the two frquencies are exactly
+in the ratio of two integers. Because you are tuning it manually (and because the signal
+generators are not designed to give exact frequencies) your trace may seem to move a little no
+matter how hard you try.
+Feel free to play with the equipment, but make notes and diagrams of what you do, and what
+settings you use, to include in your investigation report.
+
